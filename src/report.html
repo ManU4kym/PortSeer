@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Network Scan Report</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #121212;
+            color: #e0e0e0;
+            padding: 2rem;
+        }
+
+        h1 {
+            color: #64ffda;
+        }
+
+        .device {
+            margin: 2rem 0;
+            padding: 1rem;
+            background: #1e1e1e;
+            border-radius: 8px;
+        }
+
+        .port {
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            background: #2c2c2c;
+            border-radius: 6px;
+        }
+
+        .tls {
+            font-size: 0.9em;
+            color: #ffd166;
+        }
+
+        .server {
+            color: #82aaff;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>📡 Network Scan Report</h1>
+    <div class="device">
+        <h2>🔹 23.215.0.138</h2>
+        <div class="port"><strong>Port 80</strong>
+            <div class="server">Server: AkamaiGHost</div>
+        </div>
+        <div class="port"><strong>Port 443</strong>
+            <div class="tls">TLS: CN: *.example.com, Issuer: DigiCert Global G3 TLS ECC SHA384 2020 CA1, Expires: Jan 15
+                23:59:59 2026 +00:00</div>
+        </div>
+    </div>
+</body>
+
+</html>6
