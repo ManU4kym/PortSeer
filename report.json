@@ -1,0 +1,20 @@
+[
+  {
+    "ip": "23.215.0.138",
+    "port": 80,
+    "banner": null,
+    "server": "AkamaiGHost",
+    "tls_cn": null,
+    "tls_issuer": null,
+    "tls_expiry": null
+  },
+  {
+    "ip": "23.215.0.138",
+    "port": 443,
+    "banner": null,
+    "server": null,
+    "tls_cn": "*.example.com",
+    "tls_issuer": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+    "tls_expiry": "Jan 15 23:59:59 2026 +00:00"
+  }
+]
